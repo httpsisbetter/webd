@@ -1,6 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Setup
 
-## Getting Started
+Replace all your information in the .env file:
+```
+API_KEY = "LASTFMAPIHERE"
+LASTFM_USERNAME = "LASTFMUSERHERE"
+DISCORD = "LINKDISCORDHERE"
+GITHUB = "LINKGITHUBHERE"
+TELEGRAM = "LINKTELEGRAMHERE"
+```
+Replace the text or what you want in the index.tsx file for you 
+```
+Directory: src/pages/index.tsx
+```
+Fuck you and find your own stuff to replace but heres a list of stuff to find
+```
+1. discord attachment png
+2. The description
+3. The username
+```
+Sign up for cloudflare and deploy on cloudflare pages with these build settings
+```
+Build command: next build && next export
+Build output directory: /out
+Build system version: 1 (latest)
+Root directory: /
+
+Environment variables:
+Variable name	Value
+NODE_VERSION  16.14.2
+```
+Obviously connect it to a github rep for easy updating or don't I could not care
+
+## Getting Started (disregard unless you wanna do it)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
